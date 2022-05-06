@@ -14,3 +14,12 @@
 - Lot 3 shows a mean of 1496, a median of 1498, variance of 170, and a standard deviation of 13.0
 
 ## T-Tests on Suspension Coils
+For the total data set, there is a 95% confidence interval between 1497.507 and 1500.053 and a p-value of 0.06.
+![alldata](https://github.com/nicole-peltier/MechaCar_Statistical_Analysis/blob/main/alldata.png)
+
+For Lot 1 there is a 95% confidence interval between 1499.719 and 1500.281 with a p-value of 1. This, along with the t-test of 0 shows that the data exactly normally distributed. 
+![lot1](https://github.com/nicole-peltier/MechaCar_Statistical_Analysis/blob/main/llot1.png)
+
+
+For Lot 2 there is a 95% confidence interval between 1499.423 and 1500.97 with a p-value of 0.06.
+![lot2](https://github.com/nicole-peltier/MechaCar_Statistical_Analysis/blob/main/lot2.png)
