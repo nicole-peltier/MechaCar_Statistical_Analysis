@@ -10,5 +10,6 @@ lot_summary <- suspension %>% group_by(Manufacturing_Lot) %>% summarize(mean = m
 
 
 t.test(suspension$PSI, mu=1500)
-lot1 <- t.test(subset(suspension, Manufacturing_Lot == "Lot 1")$PSI, mu=1500)
-lot2 <- t.test(suspension$PSI, data=suspension, mu=1500, subset=suspension$PSI %in% Manufacturing_Lot == "Lot 2")
+lot1 <- t.test(subset(suspension,Manufacturing_Lot == "Lot1")$PSI, mu=1500)
+lot2 <- t.test(subset(suspension,Manufacturing_Lot == "Lot2")$PSI, mu=1500)
+lot3 <- t.test(subset(suspension,Manufacturing_Lot == "Lot3")$PSI, mu=1500)
