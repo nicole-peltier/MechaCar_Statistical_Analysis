@@ -23,3 +23,7 @@ For Lot 1 there is a 95% confidence interval between 1499.719 and 1500.281 with 
 
 For Lot 2 there is a 95% confidence interval between 1499.423 and 1500.97 with a p-value of 0.06.
 ![lot2](https://github.com/nicole-peltier/MechaCar_Statistical_Analysis/blob/main/lot2.png)
+
+
+For Lot 3 there is a 95% confidence interval between 1492.431 and 1499.849 with a p-value of 0.041. This means that lot 3 is significantly different from the mean of 1500 because the p-value is below 0.05.
+![lot3](https://github.com/nicole-peltier/MechaCar_Statistical_Analysis/blob/main/lot3.png)
